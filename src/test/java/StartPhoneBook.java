@@ -90,8 +90,18 @@ public class StartPhoneBook {
         wd.findElement(By.cssSelector("#root"));
 
                 //attribute []
-        wd.findElement(By.cssSelector([href="login"]));
-        
+        wd.findElement(By.cssSelector("[href=/login]"));
+
+
+        wd.findElement(By.cssSelector("[placeholder='Password']"));
+        wd.findElement(By.cssSelector("[placeholder*='ss']"));
+        wd.findElement(By.cssSelector("[placeholder^='Pa']"));
+        wd.findElement(By.cssSelector("[placeholder$='rd']"));
+        wd.findElement(By.cssSelector("[placeholder]"));
+
+
+
+
 
     }
 
